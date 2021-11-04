@@ -11,11 +11,10 @@ export default function Recipe({ site, recipe }) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>{recipe.title} &mdash; {site.title}</title>
-                <meta
-                    name="description"
-                    content={`${recipe.title} yemek tarifi`}
-                />
+                <title>
+                    {recipe.title} &mdash; {site.title}
+                </title>
+                <meta name="description" content={`${recipe.title} yemek tarifi`} />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 

@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol:not([class]),
+ul:not([class]) {
+    margin-bottom: 1em;
+    margin-left: 1.4em;
+}
+ol:not([class]) li,
+ul:not([class]) li {
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 5px;
+}
+ul:not([class]) li {
+    list-style-type: disc;
+}
+ol:not([class]) li {
+    list-style-type: decimal;
+}

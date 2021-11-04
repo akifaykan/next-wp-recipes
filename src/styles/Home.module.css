@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #6900f3;
   text-decoration: none;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .title {
-  margin: 0;
+  margin: 0 0 1rem;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -62,7 +62,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+      Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -70,7 +70,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
 }
 
 .card {
@@ -88,8 +87,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #6900f3;
+  border-color: #6900f3;
 }
 
 .card h2 {
@@ -110,7 +109,29 @@
 
 @media (max-width: 600px) {
   .grid {
-    width: 100%;
-    flex-direction: column;
+      width: 100%;
+      flex-direction: column;
   }
+}
+
+.recipe__photo {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.info p {
+  font-size: 0.8rem;
+  padding: 0.5em 0.8em;
+  background-color: #f1f1f1;
+  color: #555;
+}
+
+.info p strong {
+  font-size: 0.9rem;
 }

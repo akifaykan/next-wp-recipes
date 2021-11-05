@@ -30,7 +30,7 @@
 .title {
     margin: 0;
     line-height: 1.15;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .grid {
@@ -38,7 +38,6 @@
     grid-template-columns: 400px 1fr;
     gap: 2rem;
     width: min(1000px, 90vw);
-    margin-top: 3rem;
 }
 
 .card {

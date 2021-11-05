@@ -45,26 +45,22 @@ export default function Home({ page, recipes }) {
                                             <ul className={styles.info}>
                                                 <li className={styles.info__item}>
                                                     <p>
-                                                        Tür:
-                                                        <strong>{rec.recipeType}</strong>
+                                                        Tür: <strong>{rec.recipeType}</strong>
                                                     </p>
                                                 </li>
                                                 <li className={styles.info__item}>
                                                     <p>
-                                                        Tat:
-                                                        <strong>{rec.recipeFlavor}</strong>
+                                                        Tat: <strong>{rec.recipeFlavor}</strong>
                                                     </p>
                                                 </li>
                                                 <li className={styles.info__item}>
                                                     <p>
-                                                        Zaman:
-                                                        <strong>{rec.recipeTime}</strong>
+                                                        Zaman: <strong>{rec.recipeTime}</strong>
                                                     </p>
                                                 </li>
                                                 <li className={styles.info__item}>
                                                     <p>
-                                                        Seviye:
-                                                        <strong>{rec.recipeDifficulty}</strong>
+                                                        Seviye: <strong>{rec.recipeDifficulty}</strong>
                                                     </p>
                                                 </li>
                                             </ul>
